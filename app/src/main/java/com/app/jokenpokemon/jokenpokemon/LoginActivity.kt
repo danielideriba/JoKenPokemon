@@ -43,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun goToHome() {
-        val intent = Intent(this, FormActivity::class.java)
+        val intent = Intent(this, GameScreenActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         startActivity(intent)
         finish()
