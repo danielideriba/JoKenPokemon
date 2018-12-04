@@ -1,6 +1,7 @@
 package com.app.jokenpokemon.jokenpokemon
 
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.os.Handler
@@ -34,10 +35,9 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun showLogin() {
-        Log.i("TAG", "LOGIN")
-//        val nextScreen = Intent(this@SplashActivity, LoginActivity::class.java)
-//        startActivity(nextScreen)
-//        finish()
+        val nextScreen = Intent(this@SplashActivity, LoginActivity::class.java)
+        startActivity(nextScreen)
+        finish()
     }
 
     private fun showSplash() {
