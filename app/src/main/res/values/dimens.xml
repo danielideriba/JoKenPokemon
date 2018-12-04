@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="dimen_banner">180dp</dimen>
+    <dimen name="icon_header_size">100dp</dimen>
+    <dimen name="icon_header_margin">8dp</dimen>
+</resources>
