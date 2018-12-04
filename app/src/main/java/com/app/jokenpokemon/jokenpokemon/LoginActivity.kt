@@ -37,9 +37,9 @@ class LoginActivity : AppCompatActivity() {
             }
         }
 
-//        btSignup.setOnClickListener {
-//            startActivityForResult(Intent(this, SignUpActivity::class.java), newUserRequestCode)
-//        }
+        btSignup.setOnClickListener {
+            startActivityForResult(Intent(this, SignUpActivity::class.java), newUserRequestCode)
+        }
     }
 
     private fun goToHome() {
