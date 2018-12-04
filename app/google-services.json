@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "143081595247",
+    "firebase_url": "https://jokenpokemon-38bf8.firebaseio.com",
+    "project_id": "jokenpokemon-38bf8",
+    "storage_bucket": "jokenpokemon-38bf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143081595247:android:d6c9949e90871ba1",
+        "android_client_info": {
+          "package_name": "com.app.jokenpokemon.jokenpokemon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143081595247-ub8moebecir10mudbvpac55bki0h0tui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALoJXBlG7pfF4Y2K_0IDnQFqXkfIE6S68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
