@@ -17,19 +17,44 @@
             android:layout_weight="1"
             android:text="Vitória" />
 
+        <TextView
+            android:id="@+id/numberWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="0"
+            android:textColor="#000" />
+
         <TextView style="@style/header_title"
             android:id="@+id/draw"
             android:text="Empate" />
 
         <TextView
+            android:id="@+id/numberDraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="0"
+            android:textColor="#000" />
+
+        <TextView
             android:id="@+id/lose"
             style="@style/header_title"
             android:text="Derrota" />
+
+        <TextView
+            android:id="@+id/numberLose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="0"
+            android:textColor="#000" />
+
     </LinearLayout>
 
     <LinearLayout style="@style/space"></LinearLayout>
 
-    <LinearLayout  style="@style/container_row"
+    <LinearLayout style="@style/container_row"
         android:id="@+id/container2">
 
         <ImageView style="@style/image_option"
