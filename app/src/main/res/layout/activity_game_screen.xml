@@ -6,97 +6,99 @@
     android:layout_height="match_parent"
     tools:context=".GameScreenActivity">
 
-<LinearLayout style="@style/container_master">
+    <LinearLayout style="@style/container_master">
 
-    <LinearLayout style="@style/space"></LinearLayout>
+        <LinearLayout style="@style/space"></LinearLayout>
 
-    <LinearLayout style="@style/container_row">
-        <TextView
-            android:id="@+id/win"
-            style="@style/header_title"
-            android:layout_weight="1"
-            android:text="Vitória" />
+        <LinearLayout style="@style/container_row">
+            <TextView
+                android:id="@+id/win"
+                style="@style/header_title"
+                android:layout_weight="1"
+                android:text="Vitória" />
 
-        <TextView
-            android:id="@+id/numberWin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="0"
-            android:textColor="#000" />
+            <TextView style="@style/header_title"
+                android:id="@+id/draw"
+                android:text="Empate" />
 
-        <TextView style="@style/header_title"
-            android:id="@+id/draw"
-            android:text="Empate" />
+            <TextView
+                android:id="@+id/lose"
+                style="@style/header_title"
+                android:text="Derrota" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/numberDraw"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="0"
-            android:textColor="#000" />
+        <LinearLayout style="@style/space"></LinearLayout>
 
-        <TextView
-            android:id="@+id/lose"
-            style="@style/header_title"
-            android:text="Derrota" />
+        <LinearLayout  style="@style/container_row"
+            android:id="@+id/container2"
+            android:background="@drawable/background">
 
-        <TextView
-            android:id="@+id/numberLose"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="0"
-            android:textColor="#000" />
+            <ImageView style="@style/image_option"
+                android:id="@+id/player1Container"/>
+
+            <TextView style="@style/image_option"
+                android:id="@+id/textView4"
+                android:text="VS"
+                android:textSize="62dp"
+                android:textAlignment="center"/>
+
+            <ImageView style="@style/image_option"
+                android:id="@+id/cpuContainer"/>
+        </LinearLayout>
+
+        <LinearLayout  style="@style/container_row">
+            <TextView style="@style/player_description"
+                android:text="Player"/>
+
+            <TextView style="@style/player_description"/>
+
+            <TextView style="@style/player_description"
+                android:text="PC"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/space"></LinearLayout>
+
+        <LinearLayout style="@style/container_row"
+            android:id="@+id/container3">
+
+            <ImageView style="@style/image_option"
+                android:id="@+id/charizard"
+                android:src="@drawable/img_fire" />
+
+            <ImageView style="@style/image_option"
+                android:id="@+id/venusaur"
+                android:src="@drawable/img_leaf" />
+
+            <ImageView style="@style/image_option"
+                android:id="@+id/blastoise"
+                android:src="@drawable/img_water" />
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/container_row"
+            android:id="@+id/container4">
+
+            <ImageView style="@style/image_option"
+                android:src="@drawable/pokeball"
+                android:id="@+id/pokeball1"/>
+
+            <ImageView style="@style/image_option"
+                android:src="@drawable/pokeball"
+                android:id="@+id/pokeball2"/>
+
+            <ImageView style="@style/image_option"
+                android:src="@drawable/pokeball"
+                android:id="@+id/pokeball3"/>
+
+            <ImageView style="@style/image_option"
+                android:src="@drawable/pokeball"
+                android:id="@+id/pokeball4"/>
+
+            <ImageView style="@style/image_option"
+                android:src="@drawable/pokeball"
+                android:id="@+id/pokeball5"/>
+        </LinearLayout>
+
 
     </LinearLayout>
-
-    <LinearLayout style="@style/space"></LinearLayout>
-
-    <LinearLayout style="@style/container_row"
-        android:id="@+id/container2">
-
-        <ImageView style="@style/image_option"
-            android:id="@+id/player1Container"/>
-
-        <TextView style="@style/image_option"
-            android:id="@+id/textView4"
-            android:text="VS"
-            android:textAlignment="center"/>
-
-        <ImageView style="@style/image_option"
-            android:id="@+id/cpuContainer"/>
-    </LinearLayout>
-
-    <LinearLayout  style="@style/container_row">
-        <TextView style="@style/player_description"
-            android:text="Player"/>
-
-        <TextView style="@style/player_description"/>
-
-        <TextView style="@style/player_description"
-            android:text="PC"/>
-    </LinearLayout>
-
-    <LinearLayout style="@style/space"></LinearLayout>
-
-    <LinearLayout style="@style/container_row"
-        android:id="@+id/container3">
-
-        <ImageView style="@style/image_option"
-            android:id="@+id/charizard"
-            android:src="@drawable/img_fire" />
-
-        <ImageView style="@style/image_option"
-            android:id="@+id/venusaur"
-            android:src="@drawable/img_leaf" />
-
-        <ImageView style="@style/image_option"
-            android:id="@+id/blastoise"
-            android:src="@drawable/img_water" />
-    </LinearLayout>
-
-
-</LinearLayout>
 </android.support.constraint.ConstraintLayout>
